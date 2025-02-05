@@ -186,7 +186,7 @@ The T-Display-S3-Pro-MVSRBoard is the backplate design for the T-Display-S3-Pro 
 | DATA         | IO11       |
 | SD_MODE         | IO41       |
 
-> #### T-Display-S3-Pro-MVSRBoard_V1.0 版本
+> #### T-Display-S3-Pro-MVSRBoard_V1.0 version
 > | Microphone pins  | ESP32S3 pins|
 > | :------------------: | :------------------:|
 > | BCLK         | IO1       |
@@ -194,7 +194,7 @@ The T-Display-S3-Pro-MVSRBoard is the backplate design for the T-Display-S3-Pro 
 > | DATA         | IO2       |
 > | EN         | IO3       |
 
-> #### T-Display-S3-Pro-MVSRBoard_V1.1 版本
+> #### T-Display-S3-Pro-MVSRBoard_V1.1 version
 > | Microphone pins  | ESP32S3 pins|
 > | :------------------: | :------------------:|
 > | LRCLK         | IO1       |
