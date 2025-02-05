@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2025-02-05 15:20:46
+ * @LastEditTime: 2025-02-05 15:39:40
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Display-S3-Pro-MVSRBoard</h1>
@@ -71,7 +71,7 @@ T-Display-S3-Pro-MVSRBoard为T-Display-S3-Pro主板的背板设计，板载扬�
 
 ### 3. 振动
 
-* 驱动：PWM
+* 总线通信协议：PWM
 
 ### 4. RTC
 
@@ -88,27 +88,35 @@ T-Display-S3-Pro-MVSRBoard为T-Display-S3-Pro主板的背板设计，板载扬�
 
 | Example | `[Platformio IDE][espressif32-v6.5.0]`<br />`[Arduino IDE][esp32_v2.0.14]` | Description | Picture |
 | ------  | ------ | ------ | ------ | 
-| [CAN](./examples/CAN) |  <p align="center">![alt text][supported] | | |
 | [CST226SE](./examples/CST226SE) |  <p align="center">![alt text][supported] | | |
-| [Ethernet_HTTP](./examples/Ethernet_HTTP) |  <p align="center">![alt text][supported] | | |
-| [Ethernet_Relay](./examples/Ethernet_Relay) |  <p align="center">![alt text][supported] | | |
-| [Ethernet_Scan](./examples/Ethernet_Scan) |  <p align="center">![alt text][supported] | | |
+| [Deep_Sleep_Wake_Up](./examples/Deep_Sleep_Wake_Up) |  <p align="center">![alt text][supported] | | |
+| [DMIC_ReadData](./examples/DMIC_ReadData) |  <p align="center">![alt text][supported] | | |
+| [DMIC_SD](./examples/DMIC_SD) |  <p align="center">![alt text][supported] | | |
+| [Get_HTTP_Response_Time](./examples/Get_HTTP_Response_Time) |  <p align="center">![alt text][supported] | | |
 | [GFX](./examples/GFX) |  <p align="center">![alt text][supported] | | |
-| [GFX_SX1262](./examples/GFX_SX1262) |  <p align="center">![alt text][supported] | | |
+| [IIC_Scan_2](./examples/IIC_Scan_2) |  <p align="center">![alt text][supported] | | |
 | [Original_Test](./examples/Original_Test) |  <p align="center">![alt text][supported] | 出厂程序 | |
-| [Relay](./examples/Relay) |  <p align="center">![alt text][supported] | | |
-| [RS485](./examples/RS485) |  <p align="center">![alt text][supported] | | |
-| [RS485_2](./examples/RS485_2) |  <p align="center">![alt text][supported] | | |
-| [SX126x_Channel_Activity_Detection_Blocking](./examples/SX126x_Channel_Activity_Detection_Blocking) |  <p align="center">![alt text][supported] | | |
-| [SX126x_Channel_Activity_Detection_Interrupt](./examples/SX126x_Channel_Activity_Detection_Interrupt) |  <p align="center">![alt text][supported] | | |
-| [SX126x_PingPong](./examples/SX126x_PingPong) |  <p align="center">![alt text][supported] | | |
-| [SX1262_Receive_Interrupt](./examples/SX1262_Receive_Interrupt) |  <p align="center">![alt text][supported] | | |
+| [PCF85063](./examples/PCF85063) |  <p align="center">![alt text][supported] | | |
+| [PCF85063_Scheduled_INT](./examples/PCF85063_Scheduled_INT) |  <p align="center">![alt text][supported] | | |
+| [PCF85063_Timer_INT](./examples/PCF85063_Timer_INT) |  <p align="center">![alt text][supported] | | |
+| [RT9080](./examples/RT9080) |  <p align="center">![alt text][supported] | | |
+| [SD_Explorer_Music](./examples/SD_Explorer_Music) |  <p align="center">![alt text][supported] | | |
+| [SD_File_Size](./examples/SD_File_Size) |  <p align="center">![alt text][supported] | | |
+| [SD_Music](./examples/SD_Music) |  <p align="center">![alt text][supported] | | |
+| [SY6970](./examples/SY6970) |  <p align="center">![alt text][supported] | | |
+| [SY6970_OTG](./examples/SY6970_OTG) |  <p align="center">![alt text][supported] | | |
+| [USB_Host_Camera_Screen](./examples/USB_Host_Camera_Screen) |  <p align="center">![alt text][supported] | | |
+| [Vibration_Motor](./examples/Vibration_Motor) |  <p align="center">![alt text][supported] | | |
+| [WIFI_HTTP_Download_File](./examples/WIFI_HTTP_Download_File) |  <p align="center">![alt text][supported] | | |
+| [WIFI_HTTP_Download_SD_file](./examples/WIFI_HTTP_Download_SD_file) |  <p align="center">![alt text][supported] | | |
+| [Wifi_Music](./examples/Wifi_Music) |  <p align="center">![alt text][supported] | | |
 
 [supported]: https://img.shields.io/badge/-supported-green "example"
 
 | Firmware | Description | Picture |
 | ------  | ------  | ------ |
-| [Original_Test](./firmware/(Lora带宽调整为125Khz)[T-Connect-Pro_V1.0][Original_Test]_firmware_202501200954.bin) | 出厂程序 |  |
+| [Original_Test_V1.0](./firmware/[T-Display-S3-Pro-MVSRBoard_V1.0][Original_Test]_firmware_V1.0.1.bin) | 出厂程序 |  |
+| [Original_Test_V1.1](./firmware/(麦克风数据字体颜色从白色改成蓝色)[T-Display-S3-Pro-MVSRBoard_V1.1][Original_Test]_firmware_202412261832.bin) | 出厂程序 |  |
 
 ### PlatformIO
 1. 安装[VisualStudioCode](https://code.visualstudio.com/Download)，根据你的系统类型选择安装。
@@ -169,55 +177,39 @@ T-Display-S3-Pro-MVSRBoard为T-Display-S3-Pro主板的背板设计，板载扬�
 
 ## 引脚总览
 
-| 屏幕引脚  | ESP32S3引脚|
+| 扬声器引脚  | ESP32S3引脚|
 | :------------------: | :------------------:|
-| MOSI         | IO11       |
-| MISO         | IO13       |
-| DC         | IO41       |
-| SCLK         | IO12       |
-| CS         | IO21       |
-| BL         | IO46       |
+| BCLK         | IO4       |
+| LRCLK         | IO15       |
+| DATA         | IO11       |
+| SD_MODE         | IO41       |
 
-| 触摸引脚  | ESP32S3引脚|
-| :------------------: | :------------------:|
-| SDA         | IO39      |
-| SCL         | IO40       |
-| RST         | IO47      |
-| INT         | IO3       |
+> #### T-Display-S3-Pro-MVSRBoard_V1.0 版本
+> | 麦克风引脚  | ESP32S3引脚|
+> | :------------------: | :------------------:|
+> | BCLK         | IO1       |
+> | WS         | IO10       |
+> | DATA         | IO2       |
+> | EN         | IO3       |
 
-| 以太网引脚  | ESP32S3引脚|
-| :------------------: | :------------------:|
-| MOSI         | IO11       |
-| MISO         | IO13       |
-| RST         | IO48       |
-| SCLK         | IO12       |
-| CS         | IO10       |
-| INT         | IO9       |
+> #### T-Display-S3-Pro-MVSRBoard_V1.1 版本
+> | 麦克风引脚  | ESP32S3引脚|
+> | :------------------: | :------------------:|
+> | LRCLK         | IO1       |
+> | DATA         | IO2       |
+> | EN         | IO3       |
 
-| Lora引脚  | ESP32S3引脚|
+| 振动马达引脚  | ESP32S3引脚|
 | :------------------: | :------------------:|
-| MOSI         | IO11       |
-| MISO         | IO13       |
-| RST         | IO42       |
-| SCLK         | IO12       |
-| CS         | IO14       |
-| INT/DIO1         | IO45       |
-| BUSY         | IO38       |
+| DATA         | IO45       |
 
-| RS485引脚  | ESP32S3引脚|
+| RT9080电源引脚  | ESP32S3引脚|
 | :------------------: | :------------------:|
-| UART_TX         | IO17       |
-| UART_RX         | IO18       |
+| EN         | IO42       |
 
-| RS232引脚  | ESP32S3引脚|
+| RTC引脚  | ESP32S3引脚|
 | :------------------: | :------------------:|
-| UART_TX         | IO4       |
-| UART_RX         | IO5       |
-
-| CAN引脚  | ESP32S3引脚|
-| :------------------: | :------------------:|
-| TWAI_TX         | IO6      |
-| TWAI_RX         | IO7       |
+| INT         | IO7       |
 
 ## 相关测试
 
@@ -242,4 +234,5 @@ T-Display-S3-Pro-MVSRBoard为T-Display-S3-Pro主板的背板设计，板载扬�
 * A. 请按住“BOOT-0”按键重新下载程序。
 
 ## 项目
-* [T-Connect-Pro_V1.0](./project/T-Connect-Pro_V1.0.pdf)
+* [T-Display-S3-Pro-MVSRBoard_V1.0](./project/T-Display-S3-Pro-MVSRBoard_V1.0.pdf)
+* [T-Display-S3-Pro-MVSRBoard_V1.1](./project/T-Display-S3-Pro-MVSRBoard_V1.1.pdf)

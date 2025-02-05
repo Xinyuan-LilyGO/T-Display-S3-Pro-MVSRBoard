@@ -4,23 +4,24 @@
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2025-02-05 12:06:07
+ * @LastEditTime: 2025-02-05 15:56:14
  * @License: GPL 3.0
 -->
-<h1 align = "center">T-Connect-Pro</h1>
+<h1 align = "center">T-Display-S3-Pro-MVSRBoard</h1>
 
 ## **English | [中文](./README_CN.md)**
 
 ## Version iteration:
-| Version                              | Update date                       |
-| :-------------------------------: | :-------------------------------: |
-| T-Connect-Pro_V1.0                      | 2025-02-05                    |
+| Version                               | Update date                       |Update description|
+| :-------------------------------: | :-------------------------------: |:--------------: |
+| T-Display-S3-Pro-MVSRBoard_V1.0                      | 2024-09-13                    |   Original version      |
+| T-Display-S3-Pro-MVSRBoard_V1.1                      | 2024-12-03                    |    Replace microphone model   |
 
 ## PurchaseLink
 
 | Product                     | SOC           |  FLASH  |  PSRAM   | Link                   |
 | :------------------------: | :-----------: |:-------: | :---------: | :------------------: |
-| T-Connect-Pro_V1.0   | ESP32S3R8 |   16M   | 8M (Octal SPI) |  [NULL]()   |
+| T-Display-S3-Pro-MVSRBoard_V1.0   | NULL |   NULL   | NULL |  [NULL]()   |
 
 ## Directory
 - [Describe](#describe)
@@ -34,7 +35,7 @@
 
 ## Describe
 
-T-Connect-Pro is a product based on the ESP32S3 main control chip, consisting of three stacked circuit boards. It features a wide range of functions and is equipped with three different communication modules: CAN, RS485, and RS232, enabling long-distance data transmission. The product includes an Ethernet interface, a relay interface, and a LoRa module (SX1262). It also comes with an LCD screen to facilitate easier operation.
+The T-Display-S3-Pro-MVSRBoard is the backplate design for the T-Display-S3-Pro motherboard, featuring onboard speaker and microphone expansion with extremely low static current. Additionally, it includes vibration and RTC (Real-Time Clock) functions.
 
 ## Preview
 
@@ -106,33 +107,85 @@ T-Connect-Pro is a product based on the ESP32S3 main control chip, consisting of
 * Related documentation: 
     >[Ethernet_V2.0.0](http://www.arduino.cc/en/Reference/Ethernet)
 
+
+
+
+### 1. Speaker
+
+* Chip: MAX98357A
+* Bus communication protocol: IIS
+* Other: Default using 9dB gain
+* Related documentation: 
+    >[MAX98357A](./information/MAX98357AETE+T.pdf)
+* Dependent libraries: 
+    >[Arduino_DriveBus-1.1.16](https://github.com/Xk-w/Arduino_DriveBus)
+
+### 2. Microphone
+
+> #### T-Display-S3-Pro-MVSRBoard_V1.0 version
+> * Chip: MSM261S4030H0R
+> * Bus communication protocol: IIS
+> * Related documentation: 
+>    >[MSM261S4030H0R](./information/MEMSensing-MSM261S4030H0R.pdf)
+> * Dependent libraries: 
+>     >[Arduino_DriveBus-1.1.16](https://github.com/Xk-w/Arduino_DriveBus)
+
+> #### T-Display-S3-Pro-MVSRBoard_V1.1 version
+> * Chip: MP34DT05-A
+> * Bus communication protocol: PDM
+> * Related documentation: 
+>    >[MP34DT05-A](./information/mp34dt05-a.pdf)
+> * Dependent libraries: 
+>    >[Arduino_DriveBus-1.1.16](https://github.com/Xk-w/Arduino_DriveBus)
+
+### 3. Vibration
+
+* Bus communication protocol: PWM
+
+### 4. RTC
+
+* Chip: PCF85063ATL
+* Bus communication protocol: IIC
+* Related documentation: 
+    >[PCF85063ATL](./information/PCF85063ATL-1,118.pdf)
+* Dependent libraries: 
+    >[Arduino_DriveBus-1.1.16](https://github.com/Xk-w/Arduino_DriveBus)
+
 ## SoftwareDeployment
 
 ### Examples Support
 
 | Example | `[Platformio IDE][espressif32-v6.5.0]`<br />`[Arduino IDE][esp32_v2.0.14]` | Description | Picture |
 | ------  | ------ | ------ | ------ | 
-| [CAN](./examples/CAN) |  <p align="center">![alt text][supported] | | |
 | [CST226SE](./examples/CST226SE) |  <p align="center">![alt text][supported] | | |
-| [Ethernet_HTTP](./examples/Ethernet_HTTP) |  <p align="center">![alt text][supported] | | |
-| [Ethernet_Relay](./examples/Ethernet_Relay) |  <p align="center">![alt text][supported] | | |
-| [Ethernet_Scan](./examples/Ethernet_Scan) |  <p align="center">![alt text][supported] | | |
+| [Deep_Sleep_Wake_Up](./examples/Deep_Sleep_Wake_Up) |  <p align="center">![alt text][supported] | | |
+| [DMIC_ReadData](./examples/DMIC_ReadData) |  <p align="center">![alt text][supported] | | |
+| [DMIC_SD](./examples/DMIC_SD) |  <p align="center">![alt text][supported] | | |
+| [Get_HTTP_Response_Time](./examples/Get_HTTP_Response_Time) |  <p align="center">![alt text][supported] | | |
 | [GFX](./examples/GFX) |  <p align="center">![alt text][supported] | | |
-| [GFX_SX1262](./examples/GFX_SX1262) |  <p align="center">![alt text][supported] | | |
+| [IIC_Scan_2](./examples/IIC_Scan_2) |  <p align="center">![alt text][supported] | | |
 | [Original_Test](./examples/Original_Test) |  <p align="center">![alt text][supported] | Original factory program | |
-| [Relay](./examples/Relay) |  <p align="center">![alt text][supported] | | |
-| [RS485](./examples/RS485) |  <p align="center">![alt text][supported] | | |
-| [RS485_2](./examples/RS485_2) |  <p align="center">![alt text][supported] | | |
-| [SX126x_Channel_Activity_Detection_Blocking](./examples/SX126x_Channel_Activity_Detection_Blocking) |  <p align="center">![alt text][supported] | | |
-| [SX126x_Channel_Activity_Detection_Interrupt](./examples/SX126x_Channel_Activity_Detection_Interrupt) |  <p align="center">![alt text][supported] | | |
-| [SX126x_PingPong](./examples/SX126x_PingPong) |  <p align="center">![alt text][supported] | | |
-| [SX1262_Receive_Interrupt](./examples/SX1262_Receive_Interrupt) |  <p align="center">![alt text][supported] | | |
+| [PCF85063](./examples/PCF85063) |  <p align="center">![alt text][supported] | | |
+| [PCF85063_Scheduled_INT](./examples/PCF85063_Scheduled_INT) |  <p align="center">![alt text][supported] | | |
+| [PCF85063_Timer_INT](./examples/PCF85063_Timer_INT) |  <p align="center">![alt text][supported] | | |
+| [RT9080](./examples/RT9080) |  <p align="center">![alt text][supported] | | |
+| [SD_Explorer_Music](./examples/SD_Explorer_Music) |  <p align="center">![alt text][supported] | | |
+| [SD_File_Size](./examples/SD_File_Size) |  <p align="center">![alt text][supported] | | |
+| [SD_Music](./examples/SD_Music) |  <p align="center">![alt text][supported] | | |
+| [SY6970](./examples/SY6970) |  <p align="center">![alt text][supported] | | |
+| [SY6970_OTG](./examples/SY6970_OTG) |  <p align="center">![alt text][supported] | | |
+| [USB_Host_Camera_Screen](./examples/USB_Host_Camera_Screen) |  <p align="center">![alt text][supported] | | |
+| [Vibration_Motor](./examples/Vibration_Motor) |  <p align="center">![alt text][supported] | | |
+| [WIFI_HTTP_Download_File](./examples/WIFI_HTTP_Download_File) |  <p align="center">![alt text][supported] | | |
+| [WIFI_HTTP_Download_SD_file](./examples/WIFI_HTTP_Download_SD_file) |  <p align="center">![alt text][supported] | | |
+| [Wifi_Music](./examples/Wifi_Music) |  <p align="center">![alt text][supported] | | |
 
 [supported]: https://img.shields.io/badge/-supported-green "example"
 
 | Firmware | Description | Picture |
 | ------  | ------  | ------ |
-| [Original_Test](./firmware/(Lora带宽调整为125Khz)[T-Connect-Pro_V1.0][Original_Test]_firmware_202501200954.bin) | Original factory program |  |
+| [Original_Test_V1.0](./firmware/[T-Display-S3-Pro-MVSRBoard_V1.0][Original_Test]_firmware_V1.0.1.bin) | Original factory program |  |
+| [Original_Test_V1.1](./firmware/(麦克风数据字体颜色从白色改成蓝色)[T-Display-S3-Pro-MVSRBoard_V1.1][Original_Test]_firmware_202412261832.bin) | Original factory program |  |
 
 ### PlatformIO
 1. Install[VisualStudioCode](https://code.visualstudio.com/Download),Choose installation based on your system type.
@@ -193,55 +246,39 @@ T-Connect-Pro is a product based on the ESP32S3 main control chip, consisting of
 
 ## PinOverview
 
-| Screen pins  | ESP32S3 pins|
+| Speaker pins  | ESP32S3 pins|
 | :------------------: | :------------------:|
-| MOSI         | IO11       |
-| MISO         | IO13       |
-| DC         | IO41       |
-| SCLK         | IO12       |
-| CS         | IO21       |
-| BL         | IO46       |
+| BCLK         | IO4       |
+| LRCLK         | IO15       |
+| DATA         | IO11       |
+| SD_MODE         | IO41       |
 
-| Touch pins  | ESP32S3 pins|
-| :------------------: | :------------------:|
-| SDA         | IO39      |
-| SCL         | IO40       |
-| RST         | IO47      |
-| INT         | IO3       |
+> #### T-Display-S3-Pro-MVSRBoard_V1.0 版本
+> | Microphone pins  | ESP32S3 pins|
+> | :------------------: | :------------------:|
+> | BCLK         | IO1       |
+> | WS         | IO10       |
+> | DATA         | IO2       |
+> | EN         | IO3       |
 
-| Ethernet pins  | ESP32S3 pins|
-| :------------------: | :------------------:|
-| MOSI         | IO11       |
-| MISO         | IO13       |
-| RST         | IO48       |
-| SCLK         | IO12       |
-| CS         | IO10       |
-| INT         | IO9       |
+> #### T-Display-S3-Pro-MVSRBoard_V1.1 版本
+> | Microphone pins  | ESP32S3 pins|
+> | :------------------: | :------------------:|
+> | LRCLK         | IO1       |
+> | DATA         | IO2       |
+> | EN         | IO3       |
 
-| Lora pins  | ESP32S3 pins|
+| Vibration motor pins  | ESP32S3 pins|
 | :------------------: | :------------------:|
-| MOSI         | IO11       |
-| MISO         | IO13       |
-| RST         | IO42       |
-| SCLK         | IO12       |
-| CS         | IO14       |
-| INT/DIO1         | IO45       |
-| BUSY         | IO38       |
+| DATA         | IO45       |
 
-| RS485 pins  | ESP32S3 pins|
+| RT9080 power pins  | ESP32S3 pins|
 | :------------------: | :------------------:|
-| UART_TX         | IO17       |
-| UART_RX         | IO18       |
+| EN         | IO42       |
 
-| RS232 pins  | ESP32S3 pins|
+| RTC pins  | ESP32S3 pins|
 | :------------------: | :------------------:|
-| UART_TX         | IO4       |
-| UART_RX         | IO5       |
-
-| CAN pins  | ESP32S3 pins|
-| :------------------: | :------------------:|
-| TWAI_TX         | IO6      |
-| TWAI_RX         | IO7       |
+| INT         | IO7       |
 
 ## RelatedTests
 
@@ -266,5 +303,6 @@ T-Connect-Pro is a product based on the ESP32S3 main control chip, consisting of
 * A. Please hold down the "BOOT-0" button and try downloading the program again.
 
 ## Project
-* [T-Connect-Pro_V1.0](./project/T-Connect-Pro_V1.0.pdf)
+* [T-Display-S3-Pro-MVSRBoard_V1.0](./project/T-Display-S3-Pro-MVSRBoard_V1.0.pdf)
+* [T-Display-S3-Pro-MVSRBoard_V1.1](./project/T-Display-S3-Pro-MVSRBoard_V1.1.pdf)
 
