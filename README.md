@@ -4,20 +4,20 @@
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2025-02-05 15:59:24
+ * @LastEditTime: 2025-02-05 16:17:41
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Display-S3-Pro-MVSRBoard</h1>
 
 ## **English | [中文](./README_CN.md)**
 
-## Version iteration:
+## Version Iteration:
 | Version                               | Update date                       |Update description|
 | :-------------------------------: | :-------------------------------: |:--------------: |
 | T-Display-S3-Pro-MVSRBoard_V1.0                      | 2024-09-13                    |   Original version      |
 | T-Display-S3-Pro-MVSRBoard_V1.1                      | 2024-12-03                    |    Replace microphone model   |
 
-## PurchaseLink
+## Purchase Link
 
 | Product                     | SOC           |  FLASH  |  PSRAM   | Link                   |
 | :------------------------: | :-----------: |:-------: | :---------: | :------------------: |
