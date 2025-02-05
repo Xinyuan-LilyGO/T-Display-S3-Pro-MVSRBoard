@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2025-02-05 15:39:40
+ * @LastEditTime: 2025-02-05 16:40:21
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Display-S3-Pro-MVSRBoard</h1>
@@ -212,6 +212,11 @@ T-Display-S3-Pro-MVSRBoard为T-Display-S3-Pro主板的背板设计，板载扬�
 | INT         | IO7       |
 
 ## 相关测试
+
+### 功耗
+| Firmware | Program| Description | Picture |
+| ------  | ------  | ------ | ------ | 
+| [Deep_Sleep_Wake_Up](./firmware/[T-Display-S3-Pro-MVSRBoard_V1.0-V1.1][Deep_Sleep_Wake_Up]_firmware_202502051632.bin) | [Deep_Sleep_Wake_Up](./examples/Deep_Sleep_Wake_Up) | 静态电流: 1.22 μA 更多信息请查看 [功耗测试日志](./relevant_test/PowerConsumptionTestLog_[T-Display-S3-Pro-MVSRBoard_V1.1]_20241210.pdf) | |
 
 ## 常见问题
 

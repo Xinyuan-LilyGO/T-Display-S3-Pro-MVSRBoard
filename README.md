@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2025-02-05 16:21:51
+ * @LastEditTime: 2025-02-05 16:42:16
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Display-S3-Pro-MVSRBoard</h1>
@@ -212,6 +212,11 @@ The T-Display-S3-Pro-MVSRBoard is the backplate design for the T-Display-S3-Pro 
 | INT         | IO7       |
 
 ## RelatedTests
+
+### Power Dissipation
+| Firmware | Program| Description | Picture |
+| ------  | ------  | ------ | ------ | 
+| [Deep_Sleep_Wake_Up](./firmware/[T-Display-S3-Pro-MVSRBoard_V1.0-V1.1][Deep_Sleep_Wake_Up]_firmware_202502051632.bin) | [Deep_Sleep_Wake_Up](./examples/Deep_Sleep_Wake_Up) | Static current: 1.22 μA for more information please refer to [Power Consumption Test Log](./relevant_test/PowerConsumptionTestLog_[T-Display-S3-Pro-MVSRBoard_V1.1]_20241210.pdf) | |
 
 ## FAQ
 
