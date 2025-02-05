@@ -3,7 +3,7 @@
  *      This is an example of a serial port simulation file manager reading the content of an SD card.
  * @Author: LILYGO_L
  * @Date: 2023-09-27 14:50:04
- * @LastEditTime: 2025-02-05 14:04:12
+ * @LastEditTime: 2025-02-05 14:39:45
  * @License: GPL 3.0
  */
 #include <Arduino.h>
@@ -79,8 +79,8 @@ void setup()
     pinMode(RT9080_EN, OUTPUT);
     digitalWrite(RT9080_EN, HIGH);
 
-    pinMode(MAX98357A_EN, OUTPUT);
-    digitalWrite(MAX98357A_EN, HIGH);
+    pinMode(MAX98357A_SD_MODE, OUTPUT);
+    digitalWrite(MAX98357A_SD_MODE, HIGH);
 
     SPI.begin(SD_SCLK, SD_MISO, SD_MOSI, SD_CS); // SPI boots
 

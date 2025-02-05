@@ -4,7 +4,7 @@
         44.1kHz mono sampling rate.
  * @Author: LILYGO_L
  * @Date: 2023-08-17 15:55:47
- * @LastEditTime: 2024-12-09 17:59:21
+ * @LastEditTime: 2025-02-05 14:32:09
  * @License: GPL 3.0
  */
 
@@ -139,8 +139,8 @@ void setup()
     pinMode(MSM261_EN, OUTPUT);
     digitalWrite(MSM261_EN, HIGH);
 
-    while (IIS->begin(Arduino_IIS_DriveBus::Device_Data_Mode::DATA_IN, I2S_MODE_MASTER,
-                      MICROPHONE_SAMPLE_RATE, MICROPHONE_DATA_BIT) == false)
+    while (IIS->begin(i2s_mode_t::I2S_MODE_MASTER, ad_iis_data_mode_t::AD_IIS_DATA_IN, i2s_channel_fmt_t::I2S_CHANNEL_FMT_RIGHT_LEFT,
+                      MICROPHONE_DATA_BIT, MICROPHONE_SAMPLE_RATE) == false)
     {
         Serial.println("MSM261 initialization fail");
         delay(2000);
@@ -150,8 +150,8 @@ void setup()
     pinMode(MP34DT05TR_EN, OUTPUT);
     digitalWrite(MP34DT05TR_EN, LOW);
 
-    while (IIS->begin(Arduino_IIS_DriveBus::Device_Data_Mode::DATA_IN, I2S_MODE_PDM,
-                      MICROPHONE_SAMPLE_RATE, MICROPHONE_DATA_BIT) == false)
+    while (IIS->begin(i2s_mode_t::I2S_MODE_PDM, ad_iis_data_mode_t::AD_IIS_DATA_IN, i2s_channel_fmt_t::I2S_CHANNEL_FMT_RIGHT_LEFT,
+                      MICROPHONE_DATA_BIT, MICROPHONE_SAMPLE_RATE) == false)
     {
         Serial.println("MP34DT05TR initialization fail");
         delay(2000);

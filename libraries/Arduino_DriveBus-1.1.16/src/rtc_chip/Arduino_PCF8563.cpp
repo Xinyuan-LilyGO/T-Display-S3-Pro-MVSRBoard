@@ -3,8 +3,8 @@
  * @version: V1.0.0
  * @Author: Xk_w
  * @Date: 2023-11-16 15:42:22
- * @LastEditors: Xk_w
- * @LastEditTime: 2024-06-06 17:38:30
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2025-01-04 14:51:42
  * @License: GPL 3.0
  */
 #include "Arduino_PCF8563.h"
