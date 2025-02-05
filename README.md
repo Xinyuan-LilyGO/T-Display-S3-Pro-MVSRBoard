@@ -4,7 +4,7 @@
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2025-02-05 15:56:14
+ * @LastEditTime: 2025-02-05 15:59:24
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Display-S3-Pro-MVSRBoard</h1>
@@ -42,73 +42,6 @@ The T-Display-S3-Pro-MVSRBoard is the backplate design for the T-Display-S3-Pro 
 ### Actual Product Image
 
 ## Module
-
-### 1. MCU
-
-* Chip: ESP32-S3-R8
-* PSRAM: 8M (Octal SPI) 
-* FLASH: 16M
-* Related documentation: 
-    >[Espressif ESP32-S3 Datasheet](https://www.espressif.com.cn/sites/default/files/documentation/esp32-s3_datasheet_en.pdf)
-
-### 2. Screen
-
-<!-- * Size:  -->
-* Resolution: 222x480px
-* Screen type: TFT、LCD
-* Driver chip: ST7796
-* Bus communication protocol: Standard SPI
-* Dependent libraries: 
-    >[Arduino_GFX-1.4.6](https://github.com/moononournation/Arduino_GFX)
-
-### 3. Touch
-
-* Chip: CST226SE
-* Bus communication protocol: IIC
-* Dependent libraries: 
-    >[Arduino_DriveBus-1.1.2](https://github.com/Xk-w/Arduino_DriveBus)
-
-### 4. Lora
-
-* Module: HPD16A
-* Chip: SX1262
-* Bus communication protocol: Standard SPI
-* Related documentation: 
-    >[HPD16A_V1.1](./information/HPDTEK_HPD16A_TCXO_V1.1.pdf) <br /> 
-    >[SX1262_V2.1](./information/DS_SX1261-2_V2_1.pdf)
-* Dependent libraries: 
-    >[RadioLib-6.6.0](https://github.com/jgromes/RadioLib)
-
-### 5. CAN
-
-* Module: TD501MCANFD
-* Bus communication protocol: TWAI
-* Related documentation: 
-    >[TD501MCANFD](./information/TD501MCANFD_MORNSUN.pdf)
-
-### 6. RS485
-
-* module: TD501D485H-A
-* Bus communication protocol: UART
-* Related documentation: 
-    >[TD501D485H-A](./information/TD501D485H-A_K-CUT.pdf)
-
-### 7. RS232
-
-* module: TD501D232H
-* Bus communication protocol: UART
-* Related documentation: 
-    >[TD501D232H](./information/TD501D232H_WJ146289.pdf)
-
-### 8. Ethernet
-
-* Chip: W5500
-* Bus communication protocol: Standard SPI
-* Related documentation: 
-    >[Ethernet_V2.0.0](http://www.arduino.cc/en/Reference/Ethernet)
-
-
-
 
 ### 1. Speaker
 
