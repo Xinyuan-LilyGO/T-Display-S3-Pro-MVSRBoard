@@ -1,8 +1,8 @@
 /*
- * @Description: T-Display-S3-Pro-MVSRBoard RT9080 Test
+ * @Description: RT9080 Test
  * @Author: LILYGO_L
  * @Date: 2024-05-06 18:37:15
- * @LastEditTime: 2024-11-27 14:13:23
+ * @LastEditTime: 2025-02-06 10:43:41
  * @License: GPL 3.0
  */
 #include <Arduino.h>
