@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2025-02-05 16:42:16
+ * @LastEditTime: 2025-02-06 09:40:30
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Display-S3-Pro-MVSRBoard</h1>
@@ -115,8 +115,8 @@ The T-Display-S3-Pro-MVSRBoard is the backplate design for the T-Display-S3-Pro 
 
 | Firmware | Description | Picture |
 | ------  | ------  | ------ |
-| [Original_Test_V1.0](./firmware/[T-Display-S3-Pro-MVSRBoard_V1.0][Original_Test]_firmware_V1.0.1.bin) | Original factory program |  |
-| [Original_Test_V1.1](./firmware/(麦克风数据字体颜色从白色改成蓝色)[T-Display-S3-Pro-MVSRBoard_V1.1][Original_Test]_firmware_202412261832.bin) | Original factory program |  |
+| [Original_Test(V1.0)](./firmware/[T-Display-S3-Pro-MVSRBoard_V1.0][Original_Test]_firmware_V1.0.1.bin) | Original factory program |  |
+| [Original_Test(V1.1)](./firmware/(麦克风数据字体颜色从白色改成蓝色)[T-Display-S3-Pro-MVSRBoard_V1.1][Original_Test]_firmware_202412261832.bin) | Original factory program |  |
 
 ### PlatformIO
 1. Install[VisualStudioCode](https://code.visualstudio.com/Download),Choose installation based on your system type.
