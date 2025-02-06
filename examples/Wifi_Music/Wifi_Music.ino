@@ -1,6 +1,5 @@
 /*
- * @Description:
-            T-Display-S3-Pro-MVSRBoard Play WiFi music
+ * @Description: Play WiFi music
  * @Author: LILYGO_L
  * @Date: 2023-06-12 14:27:51
  * @LastEditTime: 2024-11-27 18:30:23
