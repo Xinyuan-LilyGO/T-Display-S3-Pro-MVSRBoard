@@ -1,8 +1,8 @@
 /*
- * @Description: T-Display-S3-Pro-MVSRBoard Vibration Motor Driver Example
+ * @Description: Vibration Motor Driver Example
  * @Author: LILYGO_L
  * @Date: 2024-05-06 18:37:15
- * @LastEditTime: 2025-02-05 14:09:00
+ * @LastEditTime: 2025-02-06 10:50:58
  * @License: GPL 3.0
  */
 #include <Arduino.h>
