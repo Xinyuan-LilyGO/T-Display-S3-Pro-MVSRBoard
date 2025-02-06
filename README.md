@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2025-02-06 10:47:25
+ * @LastEditTime: 2025-02-06 12:10:41
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Display-S3-Pro-MVSRBoard</h1>
@@ -118,7 +118,7 @@ The T-Display-S3-Pro-MVSRBoard is the backplate design for the [T-Display-S3-Pro
 | [Original_Test(V1.1)](./firmware/(麦克风数据字体颜色从白色改成蓝色)[T-Display-S3-Pro-MVSRBoard_V1.1][Original_Test]_firmware_202412261832.bin) | Original factory program |  |
 
 ### PlatformIO
-1. Install[VisualStudioCode](https://code.visualstudio.com/Download),Choose installation based on your system type.
+1. Install [VisualStudioCode](https://code.visualstudio.com/Download) ,Choose installation based on your system type.
 
 2. Open the "Extension" section of the Visual Studio Code software sidebar(Alternatively, use "<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd>" to open the extension),Search for the "PlatformIO IDE" extension and download it.
 
@@ -129,7 +129,7 @@ The T-Display-S3-Pro-MVSRBoard is the backplate design for the [T-Display-S3-Pro
 5. Open the "platformio.ini" file in the project folder (PlatformIO will automatically open the "platformio.ini" file corresponding to the added folder). Under the "[platformio]" section, uncomment and select the example program you want to burn (it should start with "default_envs = xxx") Then click "<kbd>[√](image/4.png)</kbd>" in the bottom left corner to compile,If the compilation is correct, connect the microcontroller to the computer and click "<kbd>[→](image/5.png)</kbd>" in the bottom left corner to download the program.
 
 ### Arduino
-1. Install[Arduino](https://www.arduino.cc/en/software),Choose installation based on your system type.
+1. Install [Arduino](https://www.arduino.cc/en/software) ,Choose installation based on your system type.
 
 2. Open the "example" directory within the project folder, select the example project folder, and open the file ending with ".ino" to open the Arduino IDE project workspace.
 

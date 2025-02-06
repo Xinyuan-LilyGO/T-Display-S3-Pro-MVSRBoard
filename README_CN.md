@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2025-02-06 10:47:17
+ * @LastEditTime: 2025-02-06 12:10:21
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Display-S3-Pro-MVSRBoard</h1>
@@ -118,7 +118,7 @@ T-Display-S3-Pro-MVSRBoard为 [T-Display-S3-Pro](https://github.com/Xinyuan-Lily
 | [Original_Test(V1.1)](./firmware/(麦克风数据字体颜色从白色改成蓝色)[T-Display-S3-Pro-MVSRBoard_V1.1][Original_Test]_firmware_202412261832.bin) | 出厂程序 |  |
 
 ### PlatformIO
-1. 安装[VisualStudioCode](https://code.visualstudio.com/Download)，根据你的系统类型选择安装。
+1. 安装 [VisualStudioCode](https://code.visualstudio.com/Download) ，根据你的系统类型选择安装。
 
 2. 打开VisualStudioCode软件侧边栏的“扩展”（或者使用<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd>打开扩展），搜索“PlatformIO IDE”扩展并下载。
 
@@ -129,7 +129,7 @@ T-Display-S3-Pro-MVSRBoard为 [T-Display-S3-Pro](https://github.com/Xinyuan-Lily
 5. 打开项目文件中的“platformio.ini”（添加文件夹成功后PlatformIO会自动打开对应文件夹的“platformio.ini”）,在“[platformio]”目录下取消注释选择你需要烧录的示例程序（以“default_envs = xxx”为标头），然后点击左下角的“<kbd>[√](image/4.png)</kbd>”进行编译，如果编译无误，将单片机连接电脑，点击左下角“<kbd>[→](image/5.png)</kbd>”即可进行烧录。
 
 ### Arduino
-1. 安装[Arduino](https://www.arduino.cc/en/software)，根据你的系统类型选择安装。
+1. 安装 [Arduino](https://www.arduino.cc/en/software) ，根据你的系统类型选择安装。
 
 2. 打开项目文件夹的“example”目录，选择示例项目文件夹，打开以“.ino”结尾的文件即可打开Arduino IDE项目工作区。
 
