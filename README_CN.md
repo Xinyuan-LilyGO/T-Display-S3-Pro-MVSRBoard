@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2025-02-06 09:49:32
+ * @LastEditTime: 2025-02-06 10:14:09
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Display-S3-Pro-MVSRBoard</h1>
@@ -33,7 +33,7 @@
 
 ## 描述
 
-T-Display-S3-Pro-MVSRBoard为T-Display-S3-Pro主板的背板设计，板载扬声器麦克风扩展，拥有极低的静态电流。除此之外还有振动和RTC功能。
+T-Display-S3-Pro-MVSRBoard为 [T-Display-S3-Pro](https://github.com/Xinyuan-LilyGO/T-Display-S3-Pro) 主板的背板设计，板载扬声器麦克风扩展，拥有极低的静态电流。除此之外还有振动和RTC功能。
 
 ## 预览
 

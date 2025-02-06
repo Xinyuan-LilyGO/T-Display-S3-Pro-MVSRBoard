@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2025-02-06 09:49:21
+ * @LastEditTime: 2025-02-06 10:14:52
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Display-S3-Pro-MVSRBoard</h1>
@@ -33,7 +33,7 @@
 
 ## Describe
 
-The T-Display-S3-Pro-MVSRBoard is the backplate design for the T-Display-S3-Pro motherboard, featuring onboard speaker and microphone expansion with extremely low static current. Additionally, it includes vibration and RTC (Real-Time Clock) functions.
+The T-Display-S3-Pro-MVSRBoard is the backplate design for the [T-Display-S3-Pro](https://github.com/Xinyuan-LilyGO/T-Display-S3-Pro) motherboard, featuring onboard speaker and microphone expansion with extremely low static current. Additionally, it includes vibration and RTC (Real-Time Clock) functions.
 
 ## Preview
 
