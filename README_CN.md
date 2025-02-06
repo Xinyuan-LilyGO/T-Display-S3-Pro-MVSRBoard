@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2025-02-06 10:14:09
+ * @LastEditTime: 2025-02-06 10:47:17
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Display-S3-Pro-MVSRBoard</h1>
@@ -101,7 +101,6 @@ T-Display-S3-Pro-MVSRBoard为 [T-Display-S3-Pro](https://github.com/Xinyuan-Lily
 | [PCF85063_Timer_INT](./examples/PCF85063_Timer_INT) |  <p align="center">![alt text][supported] | | |
 | [RT9080](./examples/RT9080) |  <p align="center">![alt text][supported] | | |
 | [SD_Explorer_Music](./examples/SD_Explorer_Music) |  <p align="center">![alt text][supported] | | |
-| [SD_File_Size](./examples/SD_File_Size) |  <p align="center">![alt text][supported] | | |
 | [SD_Music](./examples/SD_Music) |  <p align="center">![alt text][supported] | | |
 | [SY6970](./examples/SY6970) |  <p align="center">![alt text][supported] | | |
 | [SY6970_OTG](./examples/SY6970_OTG) |  <p align="center">![alt text][supported] | | |
