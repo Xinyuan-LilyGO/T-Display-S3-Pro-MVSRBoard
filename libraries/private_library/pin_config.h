@@ -4,7 +4,7 @@
  * @Author: None
  * @Date: 2023-08-16 14:24:03
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2024-12-09 11:01:06
+ * @LastEditTime: 2025-02-06 09:48:59
  * @License: GPL 3.0
  */
 #pragma once
@@ -50,6 +50,8 @@
 #define VIBRATINO_MOTOR_PWM 45
 
 // PCF85063
+#define PCF85063_IIC_SDA 5
+#define PCF85063_IIC_SCL 6
 #define PCF85063_INT 7
 
 // RT9080

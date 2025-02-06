@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2025-02-06 09:41:12
+ * @LastEditTime: 2025-02-06 09:49:32
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Display-S3-Pro-MVSRBoard</h1>
@@ -209,6 +209,8 @@ T-Display-S3-Pro-MVSRBoard为T-Display-S3-Pro主板的背板设计，板载扬�
 
 | RTC引脚  | ESP32S3引脚|
 | :------------------: | :------------------:|
+| SDA         | IO5       |
+| SCL         | IO6       |
 | INT         | IO7       |
 
 ## 相关测试

@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2025-02-06 09:40:30
+ * @LastEditTime: 2025-02-06 09:49:21
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Display-S3-Pro-MVSRBoard</h1>
@@ -209,6 +209,8 @@ The T-Display-S3-Pro-MVSRBoard is the backplate design for the T-Display-S3-Pro 
 
 | RTC pins  | ESP32S3 pins|
 | :------------------: | :------------------:|
+| SDA         | IO5       |
+| SCL         | IO6       |
 | INT         | IO7       |
 
 ## RelatedTests
