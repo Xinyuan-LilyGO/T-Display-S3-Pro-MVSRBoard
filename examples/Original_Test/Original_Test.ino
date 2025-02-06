@@ -1,8 +1,8 @@
 /*
- * @Description: T-Display-S3-Pro-MVSRBoard Original_Test
+ * @Description: Original_Test
  * @Author: LILYGO_L
  * @Date: 2023-09-06 10:58:19
- * @LastEditTime: 2024-12-31 11:04:24
+ * @LastEditTime: 2025-02-06 10:42:42
  * @License: GPL 3.0
  */
 
