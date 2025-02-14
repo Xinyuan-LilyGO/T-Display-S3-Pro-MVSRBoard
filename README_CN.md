@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2025-02-06 12:10:21
+ * @LastEditTime: 2025-02-14 14:40:19
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Display-S3-Pro-MVSRBoard</h1>
@@ -114,8 +114,8 @@ T-Display-S3-Pro-MVSRBoard为 [T-Display-S3-Pro](https://github.com/Xinyuan-Lily
 
 | Firmware | Description | Picture |
 | ------  | ------  | ------ |
-| [Original_Test(V1.0)](./firmware/[T-Display-S3-Pro-MVSRBoard_V1.0][Original_Test]_firmware_V1.0.1.bin) | 出厂程序 |  |
-| [Original_Test(V1.1)](./firmware/(麦克风数据字体颜色从白色改成蓝色)[T-Display-S3-Pro-MVSRBoard_V1.1][Original_Test]_firmware_202412261832.bin) | 出厂程序 |  |
+| [Original_Test(T-Display-S3-Pro-MVSRBoard_V1.0)](./firmware/[T-Display-S3-Pro-MVSRBoard_V1.0][Original_Test]_firmware_V1.0.1.bin) | 出厂程序 |  |
+| [Original_Test(T-Display-S3-Pro-MVSRBoard_V1.1)](./firmware/(麦克风数据字体颜色从白色改成蓝色)[T-Display-S3-Pro-MVSRBoard_V1.1][Original_Test]_firmware_202412261832.bin) | 出厂程序 |  |
 
 ### PlatformIO
 1. 安装 [VisualStudioCode](https://code.visualstudio.com/Download) ，根据你的系统类型选择安装。
