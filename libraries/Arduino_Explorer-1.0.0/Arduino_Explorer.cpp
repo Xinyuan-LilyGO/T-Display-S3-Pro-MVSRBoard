@@ -1,10 +1,10 @@
 /*
  * @Description: Arduino_Explorer.cpp
  * @version: V1.0.0
- * @Author: Xk_w
+ * @Author: LILYGO_L
  * @Date: 2023-10-05 08:44:18
- * @LastEditors: Xk_w
- * @LastEditTime: 2023-11-22 15:17:38
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2025-08-25 15:44:37
  * @License: GPL 3.0
  */
 #include "Arduino_Explorer.h"

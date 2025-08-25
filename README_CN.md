@@ -49,7 +49,7 @@ T-Display-S3-Pro-MVSRBoard为 [T-Display-S3-Pro](https://github.com/Xinyuan-Lily
 * 相关资料：
     >[MAX98357A](./information/MAX98357AETE+T.pdf)
 * 依赖库：
-    >[Arduino_DriveBus-1.1.16](https://github.com/Xk-w/Arduino_DriveBus)
+    >[Arduino_DriveBus-1.1.16]()
 
 ### 2. 麦克风
 
@@ -59,7 +59,7 @@ T-Display-S3-Pro-MVSRBoard为 [T-Display-S3-Pro](https://github.com/Xinyuan-Lily
 > * 相关资料：
 >    >[MSM261S4030H0R](./information/MEMSensing-MSM261S4030H0R.pdf)
 > * 依赖库：
->     >[Arduino_DriveBus-1.1.16](https://github.com/Xk-w/Arduino_DriveBus)
+>     >[Arduino_DriveBus-1.1.16]()
 
 > #### T-Display-S3-Pro-MVSRBoard_V1.1 版本
 > * 芯片：MP34DT05-A
@@ -67,7 +67,7 @@ T-Display-S3-Pro-MVSRBoard为 [T-Display-S3-Pro](https://github.com/Xinyuan-Lily
 > * 相关资料：
 >    >[MP34DT05-A](./information/mp34dt05-a.pdf)
 > * 依赖库：
->    >[Arduino_DriveBus-1.1.16](https://github.com/Xk-w/Arduino_DriveBus)
+>    >[Arduino_DriveBus-1.1.16]()
 
 ### 3. 振动
 
@@ -80,7 +80,7 @@ T-Display-S3-Pro-MVSRBoard为 [T-Display-S3-Pro](https://github.com/Xinyuan-Lily
 * 相关资料：
     >[PCF85063ATL](./information/PCF85063ATL-1,118.pdf)
 * 依赖库：
-    >[Arduino_DriveBus-1.1.16](https://github.com/Xk-w/Arduino_DriveBus)
+    >[Arduino_DriveBus-1.1.16]()
 
 ## 软件部署
 
