@@ -4,7 +4,7 @@
  * @Author: None
  * @Date: 2023-08-16 14:24:03
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2025-02-06 09:48:59
+ * @LastEditTime: 2026-06-16 09:03:29
  * @License: GPL 3.0
  */
 #pragma once
@@ -70,7 +70,7 @@
 // MSM261
 #define MSM261_WS 10
 #define MSM261_BCLK 1
-#define MSM261_DOUT 2
+#define MSM261_DATA 2
 #define MSM261_EN 3
 
 #endif
