@@ -1,0 +1,11 @@
+{
+  "libc_speech_features.a": "3ffbb7eb5546ea2675914969af0244c501c1805a0453e7bfd1df51fa8bf26fc9",
+  "libdl_lib.a": "fda61dda4225d8487923a297838e9433fe2ac73696c9390fd29af79354dc69ee",
+  "libesp-sr.a": "bf36c5f8574aedc63e7331be10abecf230e8b00d3b71dd3c0bf02b6b08d38515",
+  "libhufzip.a": "1407412dd4b8f66e4338ffd4c6f5d9cb7a66e29ab0604a302cd5ec7facc0cbdf",
+  "libwakenet.a": "464259354bba21ef6c1d22f5da67c49773978dcb3c296bf00e648fc41c999b96",
+  "arduino-libopus.tar.gz": "b1bd5609bb509a1c9c6cebeb047c46a97bde8a6aecf077def12f3cec4696bbfe",
+  "xiaozhi-model-_MODEL_INFO_": "0da989ad0e3345e597287ba17e066d96c32d04b8ab04302622c38dd91ba29b07",
+  "xiaozhi-model-wn9_data": "b2a6c82299cee7786ce1f7e229ec029592caa1b78d079217236d39eac94933fa",
+  "xiaozhi-model-wn9_index": "0b45c464e60ddfece31b7221d0464ecf11ce7b5e1d78a589cec48a08e60bcad9"
+}

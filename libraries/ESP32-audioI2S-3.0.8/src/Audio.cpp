@@ -3810,6 +3810,8 @@ bool Audio::parseContentType(char* ct) {
     else if(!strcmp(ct, "audio/mp4"))                     ct_val = CT_M4A;
     else if(!strcmp(ct, "audio/m4a"))                     ct_val = CT_M4A;
     else if(!strcmp(ct, "audio/x-m4a"))                   ct_val = CT_M4A;
+    // Apple's public AAC previews use this MIME alias for ordinary M4A files.
+    else if(!strcmp(ct, "audio/x-m4p"))                   ct_val = CT_M4A;
     else if(!strcmp(ct, "audio/wav"))                     ct_val = CT_WAV;
     else if(!strcmp(ct, "audio/x-wav"))                   ct_val = CT_WAV;
     else if(!strcmp(ct, "audio/flac"))                    ct_val = CT_FLAC;

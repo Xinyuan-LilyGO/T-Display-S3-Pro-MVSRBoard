@@ -1,0 +1,8 @@
+{
+  "name": "FactoryOpus",
+  "version": "1.3.2",
+  "frameworks": "arduino",
+  "build": {
+    "srcFilter": ["+<opus-1.3.1/src/>", "+<opus-1.3.1/celt/>", "+<opus-1.3.1/silk/>", "-<**/tests/>", "-<**/arm/>", "-<**/x86/>", "-<**/mips/>", "-<**/float/>", "-<**/*_demo.c>"]
+  }
+}
