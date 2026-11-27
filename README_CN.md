@@ -87,15 +87,16 @@ T-Display-S3-Pro-MVSRBoard为 [T-Display-S3-Pro](https://github.com/Xinyuan-Lily
 ### 示例支持
 
 | Example | `[Platformio IDE][espressif32-v6.5.0]`<br />`[Arduino IDE][esp32_v2.0.14]` | Description | Picture |
-| ------  | ------ | ------ | ------ | 
+| ------  | ------ | ------ | ------ |
 | [CST226SE](./examples/CST226SE) |  <p align="center">![alt text][supported] | | |
 | [Deep_Sleep_Wake_Up](./examples/Deep_Sleep_Wake_Up) |  <p align="center">![alt text][supported] | | |
 | [DMIC_ReadData](./examples/DMIC_ReadData) |  <p align="center">![alt text][supported] | | |
 | [DMIC_SD](./examples/DMIC_SD) |  <p align="center">![alt text][supported] | | |
+| [Factory](./examples/Factory) | <p align="center">![alt text][supported] | 出厂程序 | |
 | [Get_HTTP_Response_Time](./examples/Get_HTTP_Response_Time) |  <p align="center">![alt text][supported] | | |
 | [GFX](./examples/GFX) |  <p align="center">![alt text][supported] | | |
 | [IIC_Scan_2](./examples/IIC_Scan_2) |  <p align="center">![alt text][supported] | | |
-| [Original_Test](./examples/Original_Test) |  <p align="center">![alt text][supported] | 出厂程序 | |
+| [Original_Test](./examples/Original_Test) |  <p align="center">![alt text][supported] |  | |
 | [PCF85063](./examples/PCF85063) |  <p align="center">![alt text][supported] | | |
 | [PCF85063_Scheduled_INT](./examples/PCF85063_Scheduled_INT) |  <p align="center">![alt text][supported] | | |
 | [PCF85063_Timer_INT](./examples/PCF85063_Timer_INT) |  <p align="center">![alt text][supported] | | |
